@@ -1,6 +1,3 @@
-// Remaining placeholder fields (email, skills, experience) — replace with
-// real profile details from https://www.onlinejobs.ph/jobseekers/info/5127117.
-
 export const profile = {
   name: "Jeffrey De Vera Caudilla",
   shortName: "Jeffrey",
@@ -11,7 +8,9 @@ export const profile = {
     "I'm detail-oriented and focused on creating a smooth customer journey from the landing page through checkout. I can also assist with Shopify store setup, product pages, apps and integrations, funnel testing, troubleshooting, and revisions based on client requirements. I'm comfortable following SOPs and learning new tools and workflows to help e-commerce businesses launch and improve their funnels.",
     "I'm looking for opportunities to work with e-commerce brands, agencies, and business owners who need a reliable Funnel Builder for ongoing funnel development and Shopify-related tasks. My goal is to become a dependable part of the team and consistently deliver clean, accurate, and conversion-focused work.",
   ],
-  email: "jeffrey@example.com",
+  email: "caudillajeffrey081@gmail.com",
+  phone: "+63 995 325 8097",
+  phoneHref: "+639953258097",
   location: "Philippines",
 };
 
@@ -48,14 +47,14 @@ export const services: Service[] = [
 ];
 
 export const skills: string[] = [
-  "Sales Funnel Design",
-  "Landing Page Optimization",
-  "ClickFunnels / GoHighLevel",
-  "Email Marketing Automation",
-  "Copywriting",
-  "Conversion Rate Optimization (CRO)",
-  "Facebook & Google Ads",
-  "A/B Testing",
+  "Funnelish",
+  "Shopify Store Setup",
+  "Sales Funnels & Advertorials",
+  "Landing & Product Pages",
+  "Checkout, Order Bumps & Upsells",
+  "Funnel Template Cloning",
+  "Shopify Apps & Integrations",
+  "Funnel Testing & Troubleshooting",
 ];
 
 export type ExperienceEntry = {
@@ -65,22 +64,8 @@ export type ExperienceEntry = {
   description: string;
 };
 
-export const experience: ExperienceEntry[] = [
-  {
-    role: "Funnel Builder",
-    company: "Placeholder Company",
-    period: "2022 — Present",
-    description:
-      "Designed and launched sales funnels for multiple clients, improving lead conversion rates.",
-  },
-  {
-    role: "Digital Marketing Specialist",
-    company: "Placeholder Agency",
-    period: "2020 — 2022",
-    description:
-      "Managed ad campaigns and email sequences supporting funnel performance.",
-  },
-];
+// No verified work history yet — add real entries here when available.
+export const experience: ExperienceEntry[] = [];
 
 export type FunnelSample = {
   title: string;

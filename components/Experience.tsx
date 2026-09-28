@@ -1,6 +1,10 @@
 import { experience } from "@/lib/content";
 
 export default function Experience() {
+  if (experience.length === 0) {
+    return null;
+  }
+
   return (
     <section id="experience" className="mx-auto max-w-4xl scroll-mt-20 bg-surface px-6 py-12 sm:py-16">
       <h2 className="text-2xl font-semibold text-white">Experience</h2>

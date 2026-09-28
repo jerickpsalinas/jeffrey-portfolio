@@ -15,8 +15,8 @@ function SampleCard({
   const [imgError, setImgError] = useState(false);
 
   return (
-    <div className="overflow-hidden rounded-lg border border-surface-border bg-surface">
-      <div className="flex aspect-video items-center justify-center bg-bgdark">
+    <div className="overflow-hidden rounded-lg border border-surface-border bg-bgdark">
+      <div className="flex aspect-video items-center justify-center bg-surface">
         {imgError ? (
           <span className="text-sm text-gray-500">Sample coming soon</span>
         ) : (
@@ -39,16 +39,16 @@ function SampleCard({
 
 export default function FunnelSamples() {
   return (
-    <section id="funnel-samples" className="scroll-mt-20 bg-bgdark py-12 sm:py-16">
+    <section id="funnel-samples" className="scroll-mt-20 bg-surface py-12 sm:py-16">
       <div className="mx-auto max-w-4xl px-6">
         <h2 className="text-2xl font-semibold text-white">Funnel Samples</h2>
         <p className="mt-2 break-words text-gray-400">
           A collection of funnel work. Drop new images into{" "}
-          <code className="break-words rounded bg-surface px-1 py-0.5 text-sm text-gray-300">
+          <code className="break-words rounded bg-bgdark px-1 py-0.5 text-sm text-gray-300">
             public/funnel-samples/
           </code>{" "}
           and add an entry to{" "}
-          <code className="break-words rounded bg-surface px-1 py-0.5 text-sm text-gray-300">
+          <code className="break-words rounded bg-bgdark px-1 py-0.5 text-sm text-gray-300">
             lib/content.ts
           </code>{" "}
           to add more.

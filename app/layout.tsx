@@ -2,8 +2,9 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Jeffrey — Funnel & Marketing Specialist",
-  description: "Portfolio of Jeffrey, funnel and marketing specialist.",
+  title: "Jeffrey De Vera Caudilla — Funnel Builder",
+  description:
+    "Portfolio of Jeffrey De Vera Caudilla, a Funnel Builder specializing in Funnelish and Shopify e-commerce.",
 };
 
 export default function RootLayout({
