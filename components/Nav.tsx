@@ -18,7 +18,7 @@ export default function Nav() {
     <header className="fixed inset-x-0 top-0 z-50 border-b border-surface-border bg-bgdark/90 backdrop-blur">
       <div className="mx-auto flex max-w-5xl items-center justify-between px-6 py-4">
         <a href="#home" className="text-lg font-bold text-white">
-          {profile.name}
+          {profile.shortName}
           <span className="text-accent">.</span>
         </a>
 

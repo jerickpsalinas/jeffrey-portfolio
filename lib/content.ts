@@ -1,8 +1,9 @@
-// Remaining placeholder fields (name, email, skills, experience) — replace with
+// Remaining placeholder fields (email, skills, experience) — replace with
 // real profile details from https://www.onlinejobs.ph/jobseekers/info/5127117.
 
 export const profile = {
-  name: "Jeffrey",
+  name: "Jeffrey De Vera Caudilla",
+  shortName: "Jeffrey",
   title: "Funnel Builder",
   tagline: "I build and optimize high-converting funnels for Funnelish and Shopify e-commerce brands.",
   bioParagraphs: [
