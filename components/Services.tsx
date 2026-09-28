@@ -2,7 +2,7 @@ import { services } from "@/lib/content";
 
 export default function Services() {
   return (
-    <section id="services" className="bg-surface py-16">
+    <section id="services" className="scroll-mt-20 bg-surface py-12 sm:py-16">
       <div className="mx-auto max-w-4xl px-6">
         <h2 className="text-2xl font-semibold text-white">Services</h2>
         <div className="mt-6 grid grid-cols-1 gap-4 sm:grid-cols-2">

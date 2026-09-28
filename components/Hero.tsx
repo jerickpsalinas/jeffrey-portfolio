@@ -4,7 +4,7 @@ import { profile } from "@/lib/content";
 export default function Hero() {
   return (
     <section id="home" className="border-b border-surface-border bg-bgdark pt-16">
-      <div className="mx-auto flex max-w-5xl flex-col-reverse items-center gap-12 px-6 py-24 md:flex-row md:justify-between">
+      <div className="mx-auto flex max-w-5xl flex-col-reverse items-center gap-10 px-6 py-16 sm:gap-12 sm:py-24 md:flex-row md:justify-between">
         <div className="text-center md:text-left">
           <p className="text-sm font-medium uppercase tracking-wide text-accent">
             Hello, Welcome

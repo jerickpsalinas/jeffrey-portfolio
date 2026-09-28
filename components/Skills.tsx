@@ -2,7 +2,7 @@ import { skills } from "@/lib/content";
 
 export default function Skills() {
   return (
-    <section id="skills" className="bg-bgdark py-16">
+    <section id="skills" className="scroll-mt-20 bg-bgdark py-12 sm:py-16">
       <div className="mx-auto max-w-4xl px-6">
         <h2 className="text-2xl font-semibold text-white">Skills</h2>
         <ul className="mt-6 flex flex-wrap gap-3">
