@@ -2,7 +2,7 @@ import { profile } from "@/lib/content";
 
 export default function Hero() {
   return (
-    <section className="border-b border-surface-border bg-bgdark">
+    <section id="home" className="border-b border-surface-border bg-bgdark pt-16">
       <div className="mx-auto flex max-w-4xl flex-col items-center px-6 py-24 text-center">
         <h1 className="text-4xl font-bold tracking-tight text-white sm:text-5xl">
           {profile.name}

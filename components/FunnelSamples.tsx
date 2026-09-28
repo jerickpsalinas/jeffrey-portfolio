@@ -15,8 +15,8 @@ function SampleCard({
   const [imgError, setImgError] = useState(false);
 
   return (
-    <div className="overflow-hidden rounded-lg border border-surface-border bg-bgdark">
-      <div className="flex aspect-video items-center justify-center bg-surface">
+    <div className="overflow-hidden rounded-lg border border-surface-border bg-surface">
+      <div className="flex aspect-video items-center justify-center bg-bgdark">
         {imgError ? (
           <span className="text-sm text-gray-500">Sample coming soon</span>
         ) : (
@@ -39,15 +39,15 @@ function SampleCard({
 
 export default function FunnelSamples() {
   return (
-    <section id="funnel-samples" className="bg-surface py-16">
+    <section id="funnel-samples" className="bg-bgdark py-16">
       <div className="mx-auto max-w-4xl px-6">
         <h2 className="text-2xl font-semibold text-white">Funnel Samples</h2>
         <p className="mt-2 text-gray-400">
           A collection of funnel work. Drop new images into{" "}
-          <code className="rounded bg-bgdark px-1 py-0.5 text-sm text-gray-300">
+          <code className="rounded bg-surface px-1 py-0.5 text-sm text-gray-300">
             public/funnel-samples/
           </code>{" "}
-          and add an entry to <code className="rounded bg-bgdark px-1 py-0.5 text-sm text-gray-300">lib/content.ts</code> to add more.
+          and add an entry to <code className="rounded bg-surface px-1 py-0.5 text-sm text-gray-300">lib/content.ts</code> to add more.
         </p>
         <div className="mt-8 grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3">
           {funnelSamples.map((sample) => (

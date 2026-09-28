@@ -2,7 +2,7 @@ import { experience } from "@/lib/content";
 
 export default function Experience() {
   return (
-    <section id="experience" className="mx-auto max-w-4xl bg-bgdark px-6 py-16">
+    <section id="experience" className="mx-auto max-w-4xl bg-surface px-6 py-16">
       <h2 className="text-2xl font-semibold text-white">Experience</h2>
       <div className="mt-6 space-y-8">
         {experience.map((item) => (
